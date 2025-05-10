@@ -1,0 +1,70 @@
+{
+  "version": 3,
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge-runtime-webpack.js",
+        "server/middleware.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "matchers": [
+        {
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/(\\/?index|\\/?index\\.json))?[\\/#\\?]?$",
+          "originalSource": "/"
+        },
+        {
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/(en|en-US|zh|zh-CN|zh-TW|zh-HK|zh-MO|ja|ko|ru|fr|de|ar|es|it))(?:\\/((?:[^\\/#\\?]+?)(?:\\/(?:[^\\/#\\?]+?))*))?(\\.json)?[\\/#\\?]?$",
+          "originalSource": "/(en|en-US|zh|zh-CN|zh-TW|zh-HK|zh-MO|ja|ko|ru|fr|de|ar|es|it)/:path*"
+        },
+        {
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/((?!privacy-policy|terms-of-service|api\\/|_next|_vercel|.*\\..*).*))(\\.json)?[\\/#\\?]?$",
+          "originalSource": "/((?!privacy-policy|terms-of-service|api/|_next|_vercel|.*\\..*).*)"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "b6iaimvtbf87-twYRC-qF",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "fycFdA4IjTj1haoLQ+MBdeRfirW1UtStTn2v9jRWlsw=",
+        "__NEXT_PREVIEW_MODE_ID": "e1357f9686713aeb5664951527afb7c0",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "348acef090186531b65a8b5b764542965923d2b753667ef45bbd23ce57e63f06",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "3d8943765528c47f1574ff82c0e43365414662707b24141c8ba020deb79ac3f6"
+      }
+    }
+  },
+  "functions": {
+    "/[locale]/(default)/upload-image/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/[locale]/(default)/upload-image/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/[locale]/(default)/upload-image/page.js"
+      ],
+      "name": "app/[locale]/(default)/upload-image/page",
+      "page": "/[locale]/(default)/upload-image/page",
+      "matchers": [
+        {
+          "regexp": "^/(?<locale>[^/]+?)/upload\\-image$",
+          "originalSource": "/[locale]/upload-image"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "b6iaimvtbf87-twYRC-qF",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "fycFdA4IjTj1haoLQ+MBdeRfirW1UtStTn2v9jRWlsw=",
+        "__NEXT_PREVIEW_MODE_ID": "e1357f9686713aeb5664951527afb7c0",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "348acef090186531b65a8b5b764542965923d2b753667ef45bbd23ce57e63f06",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "3d8943765528c47f1574ff82c0e43365414662707b24141c8ba020deb79ac3f6"
+      }
+    }
+  },
+  "sortedMiddleware": [
+    "/"
+  ]
+}
