@@ -1,12 +1,7 @@
-# Some good AI tools
-# [1. aiactionfigure](https://aiactionfigure.cc/)
+[AI UGC Ads](https://aiugcads.net/)
 
-Use Our AI, Turn Yourself into an Action Figure
+**Create high-quality AI UGC video ads from your product images.**
 
-# [2. clothes swap ai](https://clothesswap.io/)
-
-AI-Powered Clothes Swap AI
-
-# [3. image to video ai](https://image-to-video-ai.org/)
-
-Use the image to video AI generator. Convert photo to video ai with high-quality and captivating results. Try our image to video AI now!
+* **Key Features:** AI-generated UGC videos, product-focused ads, realistic AI presenters, and ready-to-use ad scripts.
+* **Best For:** Ecommerce brands, Shopify sellers, marketers, and creators who want to create UGC ads quickly.
+* **Platforms:** Optimized for TikTok, Instagram Reels, Facebook, and other short-form video platforms.
